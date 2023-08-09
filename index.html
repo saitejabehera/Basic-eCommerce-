@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My eCommerce Website</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  
+</head>
+<body>
+
+  <!-- Your website content goes here -->
+  <header class="mb-5 navigation-bar">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <h1 id="logo">⍣StYle<span id="logo2">BAZAR⍣</span></h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#new-arrivals">Products</a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="#down"> <i class="bi bi-map-fill"></i>Contact Us</a>
+          </li>
+          <li class="nav-item cart-icon">
+            <a class="nav-link" href="#">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="badge badge-pill badge-primary cart-count">0</span>
+            </a>
+            <div class="cart-dropdown">
+              <ul class="cart-items">
+              </ul>
+              <p>Total: <span class="cart-total">$0.00</span></p>
+              <a href="" class="btn btn-primary">Checkout</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ 
+</header>
+
+<div class="container">
+    <div class="row">
+       
+        <div class="col text-center">
+            <h1 id="logo">⍣StYle<span id="logo1">BAZAR⍣</span></h1>
+     <p>-☺☺☺ Get Anything from A to Z ☺☺☺-</p></div>
+       
+    </div>
+</div>
+<!-- slider -->
+
+<section class="container mt-5 slide-section">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <!-- Add more li elements if you have more slides -->
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img class="d-block w-100" src="slide1.jpg" alt="Slide 1">
+        <div class="carousel-caption">
+          <h3>Slide 1 Title</h3>
+          <p>Slide 1 Description</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="slide2.jpg" alt="Slide 2">
+        <div class="carousel-caption">
+          <h3>Slide 2 Title</h3>
+          <p>Slide 2 Description</p>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="slide3.jpg" alt="Slide 3">
+        <div class="carousel-caption">
+          <h3>Slide 3 Title</h3>
+          <p>Slide 3 Description</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="slide4.jpg" alt="Slide 3">
+        <div class="carousel-caption">
+          <h3>Slide 4 Title</h3>
+          <p>Slide 4 Description</p>
+        </div>
+      </div>
+      <!-- Add more carousel-item divs if you have more slides -->
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <div class="row mt-4">
+    <!-- Add your product cards or other content here -->
+  </div>
+</section>
+
+<div class="container heading" id="new-arrivals">
+    <h1 class="text-center">New arrivals</h1>
+    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, labore.</p>
+</div>
+<section class="container mt-5 text-center">
+  <div class="row">
+
+    <!-- Add your product cards here -->
+
+<div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+  <div class="card">
+    <img class="card-img-top" src="1.jpg" alt="Product Image">
+    <div class="card-body">
+      <h5 class="card-title">Printed shirt</h5>
+      <p class="card-text">Slim fit and Streachable</p>
+      <p class="card-text">$5.0</p>
+      <a class="btn btn-primary add-to-cart-btn" data-product="Printed shirt" data-price="5.0">Add to Cart</a>
+    </div>
+  </div>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+    <div class="card">
+      <img class="card-img-top" src="2.jpg" alt="Product Image">
+      <div class="card-body">
+        <h5 class="card-title">White Shirt</h5>
+        <p class="card-text">Slim fit and Streachable</p>
+        <p class="card-text">$10.0</p>
+        <a  class="btn btn-primary add-to-cart-btn" data-product="white shirt" data-price="10.0">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+    <div class="card">
+      <img class="card-img-top" src="3.jpg" alt="Product Image">
+      <div class="card-body">
+        <h5 class="card-title">Black Shirt</h5>
+        <p class="card-text">Slim fit and Streachable</p>
+        <p class="card-text">$10.0</p>
+        <a  class="btn btn-primary add-to-cart-btn" data-product="Black shirt" data-price="10.0">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+    <div class="card">
+      <img class="card-img-top" src="4.jpg" alt="Product Image">
+      <div class="card-body">
+        <h5 class="card-title">Denim Jacket</h5>
+        <p class="card-text">Latest style</p>
+        <p class="card-text">$20.5</p>
+        <a  class="btn btn-primary add-to-cart-btn" data-product="Denim Jacket" data-price="20.5">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+  
+<div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+  <div class="card">
+    <img class="card-img-top" src="5.jpg" alt="Product Image">
+    <div class="card-body">
+      <h5 class="card-title">white pant</h5>
+      <p class="card-text">Roadster brand</p>
+      <p class="card-text">$20.0</p>
+      <a  class="btn btn-primary add-to-cart-btn" data-product="white pant" data-price="20.0">Add to Cart</a>
+    </div>
+  </div>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+  <div class="card">
+    <img class="card-img-top" src="6.jpg" alt="Product Image">
+    <div class="card-body">
+      <h5 class="card-title">Plain shirt</h5>
+      <p class="card-text">Casual shirts</p>
+      <p class="card-text">$20.5</p>
+      <a  class="btn btn-primary add-to-cart-btn" data-product="Plain shirt" data-price="20.5">Add to Cart</a>
+    </div>
+  </div>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+  <div class="card">
+    <img class="card-img-top" src="7.jpg" alt="Product Image">
+    <div class="card-body">
+      <h5 class="card-title">Denim</h5>
+      <p class="card-text">Ladies Corner</p>
+      <p class="card-text">$15.0</p>
+      <a  class="btn btn-primary add-to-cart-btn" data-product="White top" data-price="15.0">Add to Cart</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+  <div class="card">
+    <img class="card-img-top" src="8.jpg" alt="Product Image">
+    <div class="card-body">
+      <h5 class="card-title">Denim</h5>
+      <p class="card-text">Ladies Corner</p>
+      <p class="card-text">$15.0</p>
+      <a  class="btn btn-primary add-to-cart-btn" data-product="Grey top" data-price="15.0">Add to Cart</a>
+    </div>
+  </div>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+  <div class="card">
+    <img class="card-img-top" src="9.jpg" alt="Product Image">
+    <div class="card-body">
+      <h5 class="card-title">Colored shirt</h5>
+      <p class="card-text">Ladies Corner</p>
+      <p class="card-text">$20.0</p>
+      <a  class="btn btn-primary add-to-cart-btn" data-product="Colored shirt" data-price="20.0">Add to Cart</a>
+    </div>
+  </div>
+</div>
+ </div>
+</section>
+
+
+<section>
+  <div id="slider-fixed" class="container">
+    
+  </div>
+</section>
+
+
+
+<div class="container heading">
+    <h1 class="text-center">Popular products</h1>
+    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, rem!</p>
+</div>
+
+
+<div class="container text-center">
+<div class="row">
+    <div class="col-lg-3 col-sm-6 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="10.jpg" alt="Product Image">
+          <div class="card-body">
+            <h5 class="card-title">Face Wash</h5>
+            <p class="card-text">Nivia</p>
+            <p class="card-text">$30.0</p>
+            <a  class="btn btn-primary add-to-cart-btn" data-product="Nivia face wash" data-price="30.0">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="11.jpg" alt="Product Image">
+          <div class="card-body">
+            <h5 class="card-title">Face Wash</h5>
+            <p class="card-text">Caffeine</p>
+            <p class="card-text">$30.0</p>
+            <a  class="btn btn-primary add-to-cart-btn" data-product="Caffeine Face Wash" data-price="30.0">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="12.jpg" alt="Product Image">
+          <div class="card-body">
+            <h5 class="card-title">Face Wash</h5>
+            <p class="card-text">Garnier</p>
+            <p class="card-text">$30.0</p>
+            <a  class="btn btn-primary add-to-cart-btn" data-product="Garnier Face Wash" data-price="30.0">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="13.jpg" alt="Product Image">
+          <div class="card-body">
+            <h5 class="card-title">Makeup kit</h5>
+            <p class="card-text">Better don't touch</p>
+            <p class="card-text">$99.99</p>
+            <a  class="btn btn-primary add-to-cart-btn" data-product="Makeup kit" data-price="99.99">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+
+
+<footer id="down">
+  <div class="row">
+    <div class="col col-lg-4 col-sm-7 text-center">
+      <h1 id="logo">⍣StYle<span id="logo2">BAZAR⍣</span></h1>
+       <p>-☺ Get Anything from A to Z ☺-</p>
+    </div>
+    <div class="col col-lg-4 col-sm-5 text-center">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-twitter"></i>
+       <i class="bi bi-pinterest"></i>
+      <br>
+      <p style="margin: 5px;">Designed by Sai Teja Behera</p>
+      <p>
+        @2023 Copyright All Rights Reserved
+      </p>
+    </div>
+    <div class="col col-12 col-lg-4 text-center">
+        <p><i class="bi bi-phone-fill"></i> +919876543210</p>
+        <p><i class="bi bi-envelope-fill"></i> Hello123@gmail.com</p>
+        </div>
+    <div class="col col-12 send-message text-center">
+      <h3>Queries? Leave a message</h3>
+      <span><input type="text" id="name" placeholder="Your Name" required></span>
+      <span><input type="email" id="email" placeholder="Your Email" required></span>
+      <span><textarea id="message" placeholder="Your Message" required></textarea></span>
+      <button id="sendButton">Send</button>
+    </div>
+  </footer>
+  
+  
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
